@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava - Lasta Vaja Omar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            text-align: left;
+        }
+        input[type="text"],
+        input[type="date"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .back-button {
+            background-color: #6c757d;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prijava</h1>
+        <form id="prijavnica" onsubmit="return resetForm()">
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" required>
+            
+            <label for="priimek">Priimek:</label>
+            <input type="text" id="priimek" name="priimek" required>
+            
+            <label for="datumRojstva">Datum rojstva:</label>
+            <input type="date" id="datumRojstva" name="datumRojstva" required>
+            
+            <label for="pozicija">Pozicija:</label>
+            <input type="text" id="pozicija" name="pozicija" required>
+            
+            <label for="statistika">Statistika iz letošnje sezone:</label>
+            <textarea id="statistika" name="statistika" required></textarea>
+            
+            <label for="telefon">Telefonska številka:</label>
+            <input type="tel" id="telefon" name="telefon" required>
+            
+            <label for="naslov">Naslov bivališča:</label>
+            <input type="text" id="naslov" name="naslov" required>
+            
+            <button type="submit">Pošlji</button>
+        </form>
+        <button class="back-button" onclick="window.location.href='Lastna_Vaja_Omar.html'">Nazaj na domačo stran</button>
+    </div>
+    
+    <footer>
+        © 2024 Slovenska Nogometna Skavtska Agencija. Vse pravice pridržane.
+    </footer>
+    
+    <script>
+        function resetForm() {
+            document.getElementById("prijavnica").reset();
+            return false; 
+        }
+    </script>
+</body>
+</html>

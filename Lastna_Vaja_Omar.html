@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slovenska Nogometna Skavtska Agencija (SFSA)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            width: 100%;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            text-align: center;
+            padding: 100px 20px;
+            width: 100%;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #FF69B4;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #FF69B4; 
+        }
+        .hero .cta {
+            background-color: #FFD700;
+            color: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .services, .team, .contact, .testimonials {
+            text-align: center;
+            padding: 40px 20px;
+            width: 100%;
+        }
+        .services h2, .team h2, .contact h2, .testimonials h2 {
+            margin-bottom: 20px;
+        }
+        .services .service, .team .member, .testimonials .testimonial {
+            margin-bottom: 20px;
+        }
+        .service img, .member img, .testimonial img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Slovenska Nogometna Skavtska Agencija</h1>
+		<img src="LOGO-omar.jpg" alt="Scouting">
+    </header>
+    <nav>
+        <a href="onas.html">O nas</a>
+        <a href="dogodki.html">Dogodki</a>
+		<a href="program.html">Program</a>
+        <a href="aktualni.html">Aktualni igralci</a>
+        <a href="tujina.html">Naši Igralci V Tujini</a>
+        <a href="osebje.html">Osebje</a>
+        <a href="prostori.html">Naši prostori</a>
+        <a href="zgodovina.html">Zgodovina</a>
+        <a href="prijava.html">Prijava</a>
+		<a href="Sponzorji_in_partnerji.html">Sponzorji in partnerji</a>
+    </nav>
+    <section class="hero">
+        <h1 style="color: #FF69B4;">Odkrijmo talente skupaj</h1>
+        <p style="color: #FF69B4;">Pomagajmo mladim nogometašem doseči njihove sanje.</p>
+        <a href="#contact" class="cta">Kontaktirajte nas</a>
+    </section>
+    <div class="content">
+        <section id="services" class="services">
+            <h2>Naše storitve</h2>
+            <div class="service">
+                <img src="sk1.jpg" alt="Scouting">
+				<img src="sk2.jpeg" alt="Scouting">
+				<img src="skavt3.jpg" alt="Scouting">
+				<p>Naša storitev ponuja celovito skavtsko podporo za nogometne klube in igralce po Sloveniji. Specializirani smo za odkrivanje talentov, analizo zmogljivosti in razvoj karier mladih nogometašev. S pomočjo našega strokovnega tima in sodobnih tehnologij zagotavljamo natančne ocene, prilagojene treninge in strateške nasvete za napredovanje v karieri. Povezujemo igralce s klubi ter nudimo celostno podporo pri pogodbah in prestopih. Naša zaveza je razvoj slovenskega nogometa in pomoč igralcem pri doseganju njihovih največjih potencialov. Skupaj gradimo prihodnost slovenskega nogometa!</p>
+                <h3>Skavting</h3>
+                <p>Odkrivamo najboljše nogometne talente. Z nami so dolga leta že Evropsko priznani skavti: Almir Aka Krcić, Calvin Kleinović in Aleksander Dojčinović. Skavting temelji na poglobljeni analizi, sodobnih metodah in osebnem pristopu, kar omogoča natančno oceno potenciala vsakega igralca. Naša ekipa zagotavlja strokovno podporo in vodstvo, ki je ključnega pomena za uspešno kariero v nogometu.</p>
+            </div>
+            <div class="service">
+                <h3>Trening</h3>
+				<img src="gym1.jpg" alt="Training">
+				<img src="gym2.jpg" alt="Training">
+				<img src="gym3.jpg" alt="Training">
+                <p>V našem centru za nogometne talente združujemo vrhunsko infrastrukturo z najboljšimi trening metodami, kar omogoča igralcem, da razvijejo svoj polni potencial. Razpolagamo s tremi velikimi članskimi nogometnimi igrišči, od katerih je eno od NK Triglav, ter dodatno dve lastni igrišči. Poleg tega imamo dva fitnesa s osebnimi fitnes trenerji, ki skrbijo za individualen pristop k kondicijski pripravi igralcev.</p>
+				
+				<p>V našem centru imamo tudi napredno opremljeno sobo za timske videoanalize, kjer analiziramo tekme in treninge z uporabo najnovejše tehnologije. Tri sobe z televizorji gostijo dokumentarce o profesionalnih in pol-profesionalnih nogometaših, ki služijo kot navdih in vir motivacije za naše igralce.</p>
+				
+				<p>Za zagotavljanje vrhunskega zdravja in kondicije naši igralci lahko koristijo timsko kuhinjo, kjer naš osebni kuhar pripravlja vitaminske napitke in uravnotežene obroke. Dodatno imamo na voljo savno za sprostitev po napornih treningih ter olimpijski bazen za regeneracijo in izboljšanje vzdržljivosti.</p>
+				
+				<p>Naša strast in zavezanost razvoju nogometnih talentov sta temelj našega centra. Skupaj gradimo prihodnost slovenskega nogometa z najnaprednejšo podporo in infrastrukturo, ki je na voljo na enem mestu.</p>
+            </div>
+            <div class="service">
+                <h3>Promocija</h3>
+                <p>Promocija talentov v profesionalne klube:</p>
+				<img src="barca.jpg" alt="Promotion">
+				<img src="soci.jpg" alt="Promotion">
+				<img src="vale.jpg" alt="Promotion">
+				<img src="i.jpg" alt="Promotion">
+				<img src="a.jpg" alt="Promotion">
+				<img src="e.jpg" alt="Promotion">
+				<img src="l.jpg" alt="Promotion">
+				<img src="n.jpg" alt="Promotion">
+				<img src="aa.jpg" alt="Promotion">
+				<img src="o.jpg" alt="Promotion">
+				<p>Z vsemimi naštetimi klubi smo redno v kontaktih.</p>
+            </div>
+        </section>
+        <section id="team" class="team">
+            <h2>Naša ekipa</h2>
+            <div class="member">
+                <img src="haris.jpg" alt="Ekipa 1">
+                <h3>Haris Medunjanin</h3>
+                <p>Ustanovitelj in direktor</p>
+            </div>
+            <div class="member">
+                <img src="kat.jpg" alt="Ekipa 2">
+                <h3>Srečko Katanec</h3>
+                <p>Glavni trener</p>
+            </div>
+            <div class="member">
+                <img src="aka.jpg" alt="Ekipa 3">
+                <h3>Almir "Aka" Krcić</h3>
+                <p>Vodja skavtinga in skavting ekipe</p>
+            </div>
+        </section>
+        <section id="testimonials" class="testimonials">
+            <h2>Mnenja strank</h2>
+            <div class="testimonial">
+                <img src="dad.jpg" alt="Stranka 1">
+                <p>"SFSA nam je našemu sinu pomagala najti klub. Hvaležni smo!" - Marko P.</p>
+            </div>
+            <div class="testimonial">
+                <img src="t.jpg" alt="Stranka 2">
+                <p>"Zahvaljujoč SFSA sem dobil priložnost igrati profesionalni nogomet." - Luka T.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Kontaktirajte nas</h2>
+            <p>Email: info@sfsa.si</p>
+            <p>Telefon: +386 40 123 456</p>
+            <p>Naslov: Paplerjeva ulica 20, 4000 Kranj, Slovenija</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Slovenska Nogometna Skavtska Agencija. Vse pravice pridržane.</p>
+    </footer>
+</body>
+</html>
